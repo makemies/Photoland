@@ -1,0 +1,7 @@
+{
+  "name": "Photoland",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

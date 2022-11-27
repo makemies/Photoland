@@ -1,0 +1,34 @@
+<ion-app>
+  <ion-menu menuId="main-menu" content-id="main">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item routerLink="/koti">
+          <ion-icon name="home" slot="start"></ion-icon>
+          <ion-label>Home</ion-label>
+        </ion-item>
+        <ion-item routerLink="/animals">
+          <ion-icon name="paw" slot="start"></ion-icon>
+          <ion-label>Animals</ion-label>
+        </ion-item>
+        <ion-item routerLink="/cars">
+          <ion-icon name="car" slot="start"></ion-icon>
+          <ion-label>Cars</ion-label>
+        </ion-item>
+        <ion-item routerLink="/landscape">
+          <ion-icon name="rose" slot="start"></ion-icon>
+          <ion-label>Landscape</ion-label>
+        </ion-item>
+        <ion-item routerLink="/about">
+          <ion-icon name="help" slot="start"></ion-icon>
+          <ion-label>About</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>
